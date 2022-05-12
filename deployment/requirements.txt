@@ -2,5 +2,8 @@ numpy
 pandas
 matplotlib
 seaborn
+plotly
 scipy
 streamlit
+Pillow
+webbrowser

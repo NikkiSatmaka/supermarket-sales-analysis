@@ -4,12 +4,10 @@
 import numpy as np
 import pandas as pd
 import matplotlib.pyplot as plt
-from pyparsing import col
 import seaborn as sns
 import plotly.express as px
 
 import streamlit as st
-from streamlit.elements import pyplot
 
 from packages.columncat import categorize
 
