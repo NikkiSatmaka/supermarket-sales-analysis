@@ -12,7 +12,6 @@ app = MultiPage()
 st.set_page_config(
     page_title='Supermarket Sales Analysis',
     page_icon='🛒',
-    initial_sidebar_state='expanded',
     menu_items={
         'Get Help': 'https://github.com/NikkiSatmaka',
         'Report a bug': 'https://github.com/NikkiSatmaka',
