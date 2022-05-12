@@ -2,7 +2,7 @@ numpy
 pandas
 matplotlib
 seaborn
-plotly
+plotly_express
 scipy
 streamlit
 Pillow

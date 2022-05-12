@@ -63,7 +63,6 @@ def app():
         'What kind of graph do you want to create?',
         ('bar', 'box', 'line', 'scatter')
     )
-    st.write('You selected:', graph_type)
 
     cols = [
         'Branch',
@@ -92,19 +91,16 @@ def app():
         'Select your x-axis:',
         cols
     )
-    st.write('You selected:', x_axis)
 
     y_axis = st.selectbox(
         'Select your y-axis:',
         cols
     )
-    st.write('You selected:', y_axis)
 
     cat = st.selectbox(
         'Select your category to group the data:',
         cols
     )
-    st.write('You selected:', cat)
 
     #### Create graph
     if graph_type == 'bar':
@@ -122,4 +118,3 @@ def app():
     st.plotly_chart(fig)
 
     st.markdown('Hope you had fun!')
-
