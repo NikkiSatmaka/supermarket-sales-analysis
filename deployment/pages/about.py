@@ -19,8 +19,8 @@ def app():
         """
     )
 
-    github_url = 'https://github.com/NikkiSatmaka'
-    linkedin_url = 'https://www.linkedin.com/in/nikkisatmaka/'
+    github_url = '[GitHub](https://github.com/NikkiSatmaka)'
+    linkedin_url = '[LinkedIn](https://www.linkedin.com/in/nikkisatmaka/)'
 
     st.markdown('--------------------')
     st.markdown('Connect with me on')
@@ -28,9 +28,11 @@ def app():
     col1, col2 = st.columns(2)
 
     with col1:
-        if st.button('My Github'):
-            webbrowser.open_new_tab(github_url)
+        st.markdown(github_url, unsafe_allow_html=True)
+        # if st.button('My Github'):
+            # webbrowser.open_new_tab(github_url)
 
     with col2:
-        if st.button('My LinkedIn'):
-            webbrowser.open_new_tab(linkedin_url)
+        st.markdown(linkedin_url, unsafe_allow_html=True)
+        # if st.button('My LinkedIn'):
+            # webbrowser.open_new_tab(linkedin_url)
