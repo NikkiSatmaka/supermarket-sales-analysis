@@ -10,7 +10,7 @@ def app():
     st.markdown(
         """
         I'm Nikki Satmaka, a Data Scientist, Financial Market Practitioner and Analyst,
-        Quantitave Finance Enthusiast. I'm a Co-Author of "Simple Trading Simple Investing"
+        Quantitative Finance Enthusiast. I'm a Co-Author of "Simple Trading Simple Investing"
         together with Ryan Filbert's Team.
 
         I can help you provide insights from data especially regarding the financial markets.
